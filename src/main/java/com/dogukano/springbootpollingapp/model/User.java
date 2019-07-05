@@ -1,4 +1,4 @@
-package com.dogukano.poll.model;
+package com.dogukano.springbootpollingapp.model;
 
 import java.util.HashSet;
 import java.util.Set;

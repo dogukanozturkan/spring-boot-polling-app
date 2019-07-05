@@ -1,4 +1,4 @@
-package com.dogukano.poll.model;
+package com.dogukano.springbootpollingapp.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.io.Serializable;

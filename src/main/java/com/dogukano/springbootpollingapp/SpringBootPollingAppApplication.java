@@ -1,4 +1,4 @@
-package com.dogukano.poll;
+package com.dogukano.springbootpollingapp;
 
 import java.util.TimeZone;
 import javax.annotation.PostConstruct;
@@ -9,18 +9,18 @@ import org.springframework.data.convert.Jsr310Converters;
 
 @SpringBootApplication
 @EntityScan(basePackageClasses = {
-        PollApplication.class,
+        SpringBootPollingAppApplication.class,
         Jsr310Converters.class
 })
-public class PollApplication {
+public class SpringBootPollingAppApplication {
+
 
     @PostConstruct
     void init() {
         TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
     }
-
     public static void main(String[] args) {
-        SpringApplication.run(PollApplication.class, args);
+        SpringApplication.run(SpringBootPollingAppApplication.class, args);
     }
 
 }

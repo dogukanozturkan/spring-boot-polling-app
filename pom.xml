@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.dogukano</groupId>
-    <artifactId>poll</artifactId>
+    <artifactId>spring-boot-polling-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>poll</name>
-    <description>Demo Polling project for Spring Boot</description>
+    <name>spring-boot-polling-app</name>
+    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -51,17 +51,6 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <!-- For Working with Json Web Tokens (JWT) -->
-        <dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt</artifactId>
-            <version>0.9.0</version>
-        </dependency>
-        <!-- For Java 8 Date/Time Support -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.datatype</groupId>
-            <artifactId>jackson-datatype-jsr310</artifactId>
         </dependency>
     </dependencies>
 

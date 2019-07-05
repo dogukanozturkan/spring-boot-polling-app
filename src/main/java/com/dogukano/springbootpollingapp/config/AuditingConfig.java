@@ -1,4 +1,4 @@
-package com.dogukano.poll.config;
+package com.dogukano.springbootpollingapp.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
